@@ -59,7 +59,7 @@ function carregarTarefas() {
 
 function inserirTela(tarefa) {
     const li = document.createElement('li')
-    li.innerHTML = `<h1>Título: ${tarefa.titulo}</h1> 
+    li.innerHTML = `<h2>Título: ${tarefa.titulo}</h2> 
                     <p>Descrição: ${tarefa.descricao}</p>
                     <p>Prioridade: ${tarefa.prioridade}</p>
                     <p>Status: ${tarefa.status}</p>`
